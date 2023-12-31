@@ -251,6 +251,51 @@ section {
   display: flex;
 }
 
+.box-pg {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box-pg figure {
+  width: 40%;
+  height: 300px;
+  margin-bottom: 1rem;
+  position: relative;
+  margin-right: 10px;
+  background-size: cover;
+  background-color: #000000;
+}
+.box-pg .f1 {
+  background-image: url("img/project/solarsystem/1page.png");
+}
+.box-pg .f2 {
+  background-image: url("img/project/specorngallery/capt.PNG");
+}
+.box-pg figure img:hover {
+  filter: contrast(105%);
+}
+.box-pg figure figcaption {
+  padding: 10px;
+  line-height: 1.5;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  color: #fff;
+  text-shadow: 1px 2px 5px#000000;
+  opacity: 1;
+}
+.box-pg figure figcaption .fig-title {
+  font-weight: 700;
+}
+.box-pg figure figcaption .fig-author {
+  font-weight: 300;
+  font-size: 0.8rem;
+  font-style: italic;
+}
 /* GALLERy */
 .gallery {
   padding: 80px 0 80px 0;
