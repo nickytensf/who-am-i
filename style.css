@@ -412,6 +412,11 @@ section {
   background-size: cover;
   background-position: center;
 }
+.p19 {
+  background: url(jhjh.png);
+  background-size: cover;
+  background-position: center;
+}
 
 /* SCROLL BAR */
 .container-gallery::-webkit-scrollbar {
