@@ -235,7 +235,7 @@ section {
   background-color: var(--bg-color);
 }
 .main-pg {
-  width: 70%;
+  width: 100%;
   margin: auto;
   /* display: flex;
   justify-content: space-around; */
