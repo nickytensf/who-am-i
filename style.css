@@ -348,7 +348,7 @@ section {
   background-position: center;
 }
 .p6 {
-  background: url(img/gallery/newpict/p6.jpg);
+  background: url(img/gallery/newpict/p6.JPG);
   background-size: cover;
   background-position: center;
 }
@@ -412,10 +412,6 @@ section {
   background-size: cover;
   background-position: center;
 }
-.p19 {
-  background: url(jhjh.png);
-  background-size: cover;
-  background-position: center;
 
 /* SCROLL BAR */
 .container-gallery::-webkit-scrollbar {
